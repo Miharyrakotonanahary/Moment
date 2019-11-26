@@ -1,0 +1,101 @@
+
+.img-header{
+	
+	height: 00px;
+	margin-top:-200px;
+		
+}
+.transparent{
+	background-image: url("../image/pdc.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 400px;
+}
+div.container{
+	margin-top: -300px;	
+}
+div.container::before { 
+	margin-top: 150px;
+  }
+.menu{
+	color: white;
+}
+.acces{
+	color: white;
+	background-color: #ba6359;
+}
+.apropos{
+	margin-top: 150px;
+	margin-left: 150px;
+	margin-top: -100px;
+	position:absolute;
+}
+.nom{
+	margin-left: 330px;
+    margin-top: -31px;
+    color: white;
+}
+}
+.contenu{
+	margin-left: 50px;
+	font-size: 10px;
+
+}
+.aside{
+	background-color: transparent;
+	border:1px solide;
+	font-size: 10px;
+	border-color: grey;
+	border-radius: 5px;
+	border-bottom-color: grey;
+	margin-top: 10px;	
+}
+button .aside{
+	margin-left: 50px;
+	
+}
+.pdp{
+	margin-left: 125px;
+	margin-top: -80px;
+}
+.experience{
+	font-size: 15px;
+		
+}
+
+.qualite{
+	margin-top: 200px;
+}
+.année{
+	background-color: #DCDCDC;
+	border-radius: 15px;
+	height: 35px;
+	
+}
+.pub{
+	font-size: 10px;	
+}
+.colege{
+	color: darkcyan;
+}
+.date{
+	font-style: italic;
+	font-size: 10px;
+}
+p{
+	font-size: 12px;
+}
+h5{
+	font-size: 15px;
+	font-weight: bold;
+}
+.ecole{
+	font-size: 15px;
+}
+.card2{
+	margin-bottom: 60px;
+}
+.icone{
+	width: 15px;
+	height: 15px;
+}

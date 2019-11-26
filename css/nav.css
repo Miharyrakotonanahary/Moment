@@ -1,0 +1,166 @@
+/*! minireset.css v0.0.6 | MIT License | github.com/jgthms/minireset.css */
+html,body,p,ol,ul,li,dl,dt,dd,blockquote,figure,fieldset,legend,textarea,pre,iframe,hr,h1,h2,h3,h4,h5,h6{margin:0;padding:0}
+h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal}ul{list-style:none}button,input,select,textarea{margin:0}html{box-sizing:border-box}
+*,*::before,*::after{box-sizing:inherit}iframe{border:0}table{border-collapse:collapse;border-spacing:0}
+td,th{padding:0}td:not([align]),th:not([align]){text-align:left}
+a, a:hover{
+    text-decoration: none;
+    color: #FFF;
+}
+
+@font-face {
+    font-family: 'Segoe UI';
+    src: url('fonts/SegoeUI-Regular.eot');
+    src: url('fonts/SegoeUI-Regular.eot?#iefix') format('embedded-opentype');
+    src: url('fonts/SegoeUI-Regular.woff2') format('woff2');
+    src: url('fonts/SegoeUI-Regular.woff') format('woff');
+    src: url('fonts/SegoeUI-Regular.ttf') format('truetype');
+    src: url('fonts/SegoeUI-Regular.svg#SegoeUI-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+body{
+    font-family: 'Segoe UI', sans-serif;
+}
+.header{
+    background-image: url(../img/header1.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    color: #FFF;
+}
+.header-content{
+    background: rgba(0, 0, 0, .56);
+    padding-bottom: 64px;
+}
+.navbar{
+    padding: 30px;
+    padding-bottom: 0px;
+}
+.navbar-content{
+    font-size: 14px;
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+.recruteur{
+    padding: 20px 30px;
+    background: #767473;
+    text-align: center;
+    border: 0px;
+    border-radius: 3px;
+    width: 203px;
+    height: 60px;
+}
+.nav a{
+    margin: 0 25px;
+    line-height: 4;
+}
+.nav a::before{
+    content: '';
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    margin-right: 5px;
+    margin-top: -6px;
+    vertical-align: middle;
+}
+.nav a:hover{
+    font-weight: bold;
+    text-decoration: underline;
+}
+.nav .s-inscrire::before, .nav .se-connecter::before{
+    width: 0;
+    height: 0;
+}
+.nav .home::before{
+    background: url(../img/home.svg) no-repeat center center;
+}
+.nav .mon-profil::before{
+    background: url(../img/profil.svg) no-repeat center center;
+}
+.nav .entreprise::before{
+    background: url(../img/entreprise.svg) no-repeat center center;
+}
+.nav .job::before{
+    background: url(../img/job-icon.svg) no-repeat center center;
+}
+.nav .twitter::before{
+    background: url(../img/twitter.svg) no-repeat center center;
+}
+.nav .linkding::before{
+    background: url(../img/linkding.svg) no-repeat center center;
+}.nav .instagram::before{
+    background: url(../img/insta.svg) no-repeat center center;
+}
+
+.argument-container{
+    width: 704px;
+    margin: 80px 0 45px 240px;
+    text-align: left;
+    font-size: 52px;
+    font-weight: bold;
+    line-height: 1.2;
+}
+
+.argument-container p{
+    font-size: 27px;
+    font-weight: normal;
+    line-height: 1.5;
+}
+
+.head-form-container{
+    width: 75%;
+    margin: 0 auto;
+}
+.head-form-content{
+    display: flex;
+}
+select, input{
+    color: #FFF;
+}
+.head-form{
+    background: #707070;
+    margin: 10px;
+    padding:10px 45px;
+    opacity: .65;
+    border: 0 solid;
+    border-radius: 3px;
+}
+::placeholder{
+    color: rgba(255, 255, 255, 1);
+    font-size: 15px;
+    opacity: 1.5;
+}
+.relative-form{
+    position: relative;
+}
+.search-form{
+    position: absolute;
+    bottom: 20px;
+    left: 350px;
+}
+.location{
+    position: absolute;
+    bottom: 21px;
+    left: 230px;
+}
+.icon-domaine{
+    position: absolute;
+    bottom: 21px;
+    left: 185px;
+    
+}
+
+.post{
+    width: 375px;
+}
+.post-type{
+    width: auto;
+}
+.lieu{
+    width: auto;
+}
+.domaine{
+    width: 215px;
+}

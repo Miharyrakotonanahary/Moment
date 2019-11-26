@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="19.945" height="19.943" viewBox="0 0 19.945 19.943">
+  <g id="spaceship" transform="translate(-2.5 -2.472)">
+    <line id="Ligne_1" data-name="Ligne 1" x2="5.198" y2="5.198" transform="translate(14.978 4.717)" fill="none" stroke="#FFF" stroke-miterlimit="10" stroke-width="1"/>
+    <path id="Tracé_33" data-name="Tracé 33" d="M15.32,10.556a6.961,6.961,0,0,0-8.788,2.877l3,3" transform="translate(-2.38 -4.708)" fill="none" stroke="#FFF" stroke-miterlimit="10" stroke-width="1"/>
+    <path id="Tracé_34" data-name="Tracé 34" d="M40.087,30.4a6.962,6.962,0,0,1-2.86,8.827l-3.009-3.009" transform="translate(-21.038 -18.465)" fill="none" stroke="#FFF" stroke-miterlimit="10" stroke-width="1"/>
+    <path id="Tracé_35" data-name="Tracé 35" d="M16.666,19.07l-4.944-4.944S15.945,3.618,27.792,3C27.122,14.8,16.666,19.07,16.666,19.07Z" transform="translate(-5.878)" fill="none" stroke="#FFF" stroke-linecap="square" stroke-miterlimit="10" stroke-width="1"/>
+    <circle id="Ellipse_14" data-name="Ellipse 14" cx="1.748" cy="1.748" r="1.748" transform="translate(11.407 11.035) rotate(-45)" fill="none" stroke="#FFF" stroke-linecap="square" stroke-miterlimit="10" stroke-width="1"/>
+    <path id="Tracé_36" data-name="Tracé 36" d="M3,50.957a1.957,1.957,0,1,1,1.957,1.957H3Z" transform="translate(0 -30.999)" fill="none" stroke="#FFF" stroke-linecap="square" stroke-miterlimit="10" stroke-width="1"/>
+  </g>
+</svg>

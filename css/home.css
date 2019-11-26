@@ -1,0 +1,155 @@
+.container-home-global{
+    width: 98%;
+    margin: 0 auto;
+}
+
+.container-home .second-content-home{
+    width: 98%;
+    margin: 20px auto;
+}
+.container-home-content{
+    padding: 10px;
+    width: 100%;
+}
+.content-home{
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    place-content: center;
+}
+.plus-rechercher, .second-carte-arg-post{
+    font-weight: bold;
+    margin-left: 25px;
+    font-size: 27px;
+}
+.plus{
+    display: flex;
+    font-weight: bold;
+    font-size: 14px;
+    text-align: right;
+    margin: 0;
+    position: absolute;
+    right: 100px;
+    top: 20px;
+}
+.plus img{
+    margin: 5px 0 0 10px;
+}
+
+.plus a{
+    color: #7B7B7B;
+}
+.carte{
+    width: 22%;
+    margin: 0px 15px 30px 15px;
+    box-shadow: 2px 2px 2px #707070;
+}
+.carte-img-content{
+    width: 100%;
+    filter: brightness(0.56);
+}
+.carte-icon::before{
+    content: ' ';
+    display: inline-block;
+    margin-left: 5px;
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+}
+.about{
+    line-height: 20px;
+    margin: 10px 0;
+}
+.slash{
+    background: url(../img/icon-domaine-noir.svg) no-repeat;
+    background-size: 15px 25px;
+}
+.trait{
+    background: url(../img/icon-lieu-noir.svg) no-repeat;
+    background-size: 11px 20px;
+}
+
+.img-absolute img, .second-carte-logo img{
+    width: 60px;
+    height: 60px;
+
+}
+.img-absolute{
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+
+.carte-arg{
+    font-size: 12px;
+    padding: 10px;
+    height: 220px;
+}
+.carte-arg p{
+    margin: 5px 0px;
+}
+.carte-arg span{
+    margin-top: 5px;
+}
+.carte-arg .carte-titre{
+    font-size: 26px;
+    font-weight: bold;
+}
+.carte-bottom{
+    font-weight: bold;
+    position: absolute;
+    bottom: 10px;
+}
+.second-relative-form{
+    position: relative;
+    height: 174px;  
+}
+.second-carte{
+    display: flex;
+    width: 96%;
+    margin: 0 auto 25px auto;
+    box-shadow:  1px 1px 2px 2px #7B7B7B;
+
+}
+
+.second-carte-img{
+    width: 360px;
+}
+.second-carte-logo{
+    position: absolute;
+    top:50px;
+    left: 330px;
+}
+.about-second p{
+    margin:  10px 0;
+}
+.second-carte-arg{
+    font-size: 13px;
+    padding: 10px 45px 0 45px;
+}
+.second-carte-arg-post, .second-carte-arg-titre{
+    padding-left: 5px;
+}
+#second-carte-arg-desc{
+    font-size: 13px;
+}
+.second-carte-droite{
+    position: absolute; 
+    right: 40px;
+    top: 20px;
+    font-size: 13px;
+    line-height: 25px;
+}
+.second-carte-arg-titre{
+    text-transform: uppercase;
+    font-size: 24px;
+    color: #7B7B7B;
+}
+.second-slash{
+    background: url(../img/icon-domaine-noir.svg) no-repeat;
+    background-size: 14px 24px;
+}
+.second-trait{
+    background: url(../img/icon-lieu-noir.svg) no-repeat;
+    background-size: 11px 21px;
+}
